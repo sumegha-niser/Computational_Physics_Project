@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 def check_power_of_two(n):
-    if n//2 == 0:
+    if n%2 == 0:
         return True
     else:
         return False
